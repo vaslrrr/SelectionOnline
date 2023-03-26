@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	  <link href="css/styles.css" rel="stylesheet">
+
+    <title>Приёмная коммисия ОНЛАЙН - РГСУ</title>
+  </head>
+  <body class="background">
+	  <header class="header">
+    <div class="row">
+		<div class="col-3 text-start" style="overflow: hidden;"> <img src="images/logo.png" class="logotip" style="padding-left: 2%;"></div>
+      	<div class="col text-center text-nowrap align-self-center"><span class="fs-1">Первый Социальный ВУЗ Страны</span></div>
+		<div class="col-2 text-end align-text-top text-nowrap align-text-end"><div style="margin-right: 10%;"><a href="number.html" class="number">+7(495)255-67-67</a></div></div>	
+	</div>
+  </header>
+	  <section class="text-main" style="margin-top: 3%;">
+	  <div class="row">
+	  </div>
+		  <div class="row">
+			  <div class="col-4"></div>
+		  	<div class="col-4 "><input name="" class="rounded-input" type="text" placeholder="ФИО" style="width:100%;"/></div>
+			  <div class="col-4"></div>
+		  </div>
+		  <div class="row" style="margin-top: 0.7%;">
+			  <div class="col-4"></div>
+		  	<div class="col-4 "><input name="" class="rounded-input" type="email" placeholder="Почта" style="width:100%;"/></div>
+			  <div class="col-4"></div>
+		  </div>
+		  <div class="row" style="margin-top: 0.7%;">
+			  <div class="col-4"></div>
+		  	<div class="col-4"><input READONLY name="" class="rounded-input" type="number" placeholder="Общая сумма баллов" style="width:60%; margin-left: 15%;"/></div>
+			  <div class="col-4"></div>
+		  </div>
+		  <div class="row" style="margin-top: 0.7%;">
+			  <div class="col-4"></div>
+		  	<div class="col-4 "><input name="" class="rounded-input" type="text" placeholder="Предмет" style="width:60%;"/>
+			  <input name="" class="rounded-input align-self-end" type="number" placeholder="Кол-во" style="width:30%; margin-left: 5%;"/></div>
+			  <div class="col-4"></div>
+		  </div>
+		  <div class="row" style="margin-top: 0.7%;">
+			  <div class="col-4"></div>
+		  	<div class="col-4 "><input name="" class="rounded-input" type="text" placeholder="Предмет" style="width:60%;"/>
+			  <input name="" class="rounded-input align-self-end" type="number" placeholder="Кол-во" style="width:30%; margin-left: 5%;"/></div>
+			  <div class="col-4"></div>
+		  </div>
+		  <div class="row" style="margin-top: 0.7%;">
+			  <div class="col-4"></div>
+		  	<div class="col-4 "><input name="" class="rounded-input" type="text" placeholder="Предмет" style="width:60%;"/>
+			  <input name="" class="rounded-input align-self-end" type="number" placeholder="Кол-во" style="width:30%; margin-left: 5%;"/></div>
+			  <div class="col-4"></div>
+		  </div>
+		  <div class="row" style="margin-top: 0.7%;">
+			  <div class="col-4"></div>
+		  	<div class="col-4 "><input name="" class="rounded-input" type="text" placeholder="Предмет" style="width:60%;"/>
+			  <input name="" class="rounded-input align-self-end" type="number" placeholder="Кол-во" style="width:30%; margin-left: 5%;"/></div>
+			  <div class="col-4"></div>
+		  </div>
+		  <div class="row" style="margin-top: 0.7%;">
+			  <div class="col-4"></div>
+			  <div class="col-4 ">Скан. паспорта: <a href="" target="_blank" class="btn btn-warning">Просмотр</a></div>
+			  <div class="col-4"></div>
+		  </div>
+		  <div class="row" style="margin-top: 0.7%;">
+			  <div class="col-4"></div>
+		  	<div class="col-4 ">СНИЛС: <a href="" target="_blank" class="btn btn-warning">Просмотр</a></div>
+			  <div class="col-4"></div>
+		  </div>
+		  <div class="row" style="margin-top: 0.7%;">
+			  <div class="col-4"></div>
+		  	<div class="col-4 ">Диплом: <a href="" target="_blank" class="btn btn-warning">Просмотр</a></div>
+			  <div class="col-4"></div>
+		  </div>
+		  <div class="row" style="margin-top: 0.7%;">
+			  <div class="col-4"></div>
+		  	<div class="col-4 ">Результаты ЕГЭ: <a href="" target="_blank" class="btn btn-warning">Просмотр</a></div>
+			  <div class="col-4"></div>
+		  </div>
+		  <div class="row" style="margin-top: 0.7%;">
+			  <div class="col-4"></div>
+		  	<div class="col-4 "><a href="#" class="btn btn-success btn-rounded" style="width: 40%;">Одобрить</a><a href="#" class="btn btn-danger btn-rounded" style="width: 40%; margin-left: 19%;">Отказать</a></div>
+			  <div class="col-4"></div>
+		  </div>
+		  
+  </section>
+    <script src="js/bootstrap.bundle.min.js"></script>
+  
+  </body>
+</html>

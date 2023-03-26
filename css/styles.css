@@ -1,0 +1,23 @@
+.background{
+	background: #E7F5FF;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.btn-rounded {
+    --mdb-btn-border-radius: 10rem;
+    border-radius: var(--mdb-btn-border-radius);
+}
+
+.rounded-input {
+    border-radius: 50rem;
+}
+
+
+.number {
+	text-decoration-line: none;
+	color: #1F364F;
+}
