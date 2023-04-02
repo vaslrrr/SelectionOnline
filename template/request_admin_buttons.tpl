@@ -58,6 +58,15 @@
 </div>
 <div class="row" style="margin-top: 0.7%;">
     <div class="col-4"></div>
+    <div class="col-4 "><a href="request_admin.php?id=%ID%&approve" class="btn btn-success btn-rounded"
+                           style="width: 40%;">Одобрить</a><a href="request_admin.php?id=%ID%&decline"
+                                                              class="btn btn-danger btn-rounded"
+                                                              style="width: 40%; margin-left: 19%;">Отказать</a>
+    </div>
+    <div class="col-4"></div>
+</div>
+<div class="row" style="margin-top: 0.7%;">
+    <div class="col-4"></div>
     <div class="col-4 ">
         <a href="list_admin.php"
            class="btn btn-warning" style="width: 40%; margin-left: 30%;">К списку заявлений</a>
