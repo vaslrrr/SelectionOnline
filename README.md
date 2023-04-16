@@ -1,7 +1,7 @@
 # Онлайн приемная Docker встроенная в установщик LAMP Docker через Composer
 
 
-Инструкция от разработчика @sprintcube:
+Инструкция от сборщика LAMP @sprintcube(за что ему огромное спасибо):
 ## Installation
 
 - Clone this repository on your local computer
