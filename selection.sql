@@ -40,6 +40,12 @@ CREATE TABLE `requests` (
 --
 -- Дамп данных таблицы `requests`
 --
+
+INSERT INTO `requests` (`id`, `name`, `email`, `snils`, `scores`, `status`) VALUES
+(1, 'test', 'test@test.com', 15835845811, '{\"test\":\"12\",\"test1\":\"21\"}', 'true'),
+(2, 'asd', 'asd@asd.com', 12345678912, '{\"asd\":\"1\",\"asdd\":\"2\"}', 'true'),
+(3, 'test123', 'rese@dsa.com', 12345678978, '{\"rwe2\":\"12\",\"asd\":\"12\"}', 'false');
+
 --
 -- Индексы сохранённых таблиц
 --
@@ -49,6 +55,17 @@ CREATE TABLE `requests` (
 --
 ALTER TABLE `requests`
   ADD PRIMARY KEY (`id`);
+
+--
+-- AUTO_INCREMENT для сохранённых таблиц
+--
+
+--
+-- AUTO_INCREMENT для таблицы `requests`
+--
+ALTER TABLE `requests`
+  MODIFY `id` int(255) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1;
+COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;

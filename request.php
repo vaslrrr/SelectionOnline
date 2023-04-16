@@ -78,6 +78,8 @@ if (!empty($_POST)) {
         TPL::redirectTo("request.php?system_error");
     }
 
+    sendEMail(trim($_POST['email']), str_replace("%LINK%", SITE_URL . "list.php", str_replace("%ID%", $id, file_get_contents("template/message_template/message_registered.tpl"))));
+
     TPL::redirectTo("request_success.php?id=$id&email=" . urlencode(trim($_POST['email'])));
 }
 

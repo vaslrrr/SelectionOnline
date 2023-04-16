@@ -1,5 +1,5 @@
 <div class="row">
-    <div class="col text-center">Заполните данные для подачи заявки на поступление:</div>
+    <div class="col text-center">Введите данные для авторизации:</div>
 </div>
 <form method="post">
     <div class="row">

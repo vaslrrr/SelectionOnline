@@ -21,9 +21,11 @@ if ($data == false) {
 if ($data['status'] == "none") {
     if (isset($_GET['approve'])) {
         DB::query("UPDATE `requests` SET `status` = 'true' WHERE `id` = :id", ["id" => $_GET['id']]);
+        sendEMail(trim($data['email']), str_replace("%ID%", $_GET['id'], file_get_contents("template/message_template/message_approved.tpl")));
         TPL::redirectTo("request_admin.php?id={$_GET['id']}");
     } else if (isset($_GET['decline'])) {
         DB::query("UPDATE `requests` SET `status` = 'false' WHERE `id` = :id", ["id" => $_GET['id']]);
+        sendEMail(trim($data['email']), str_replace("%ID%", $_GET['id'], file_get_contents("template/message_template/message_abandoned.tpl")));
         TPL::redirectTo("request_admin.php?id={$_GET['id']}");
     }
 }
